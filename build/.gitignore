@@ -1,0 +1,63 @@
+# ==========================================
+# Build Directories and Artifacts
+# ==========================================
+build/
+build-*/
+out/
+bin/
+
+# ==========================================
+# CMake & Ninja Generated Files
+# ==========================================
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Makefile
+*.cmake
+*.ninja
+.ninja_*
+compile_commands.json
+CMakeUserPresets.json
+CTestTestfile.cmake
+/Testing/
+
+# ==========================================
+# Clang / Language Server Caches
+# ==========================================
+# (Note: Do NOT ignore .clang-format or .clang-tidy if you create them)
+.clangd/
+.cache/
+
+# ==========================================
+# Dependencies (Fetched via CMake)
+# ==========================================
+_deps/
+
+# ==========================================
+# Compiled Object Files and Executables
+# ==========================================
+*.o
+*.obj
+*.out
+*.exe
+*.a
+*.so
+*.dylib
+*.dll
+tensor_demo
+tensor_tests
+
+# ==========================================
+# IDEs and Editor Configurations
+# ==========================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ==========================================
+# OS Specific Files
+# ==========================================
+.DS_Store
+Thumbs.db
